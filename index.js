@@ -1,5 +1,5 @@
 const http = require("http");
-const app = require("./config/express.config");
+const app = require("./config/express.config.js");
 
 const server = http.createServer(app);
 server.listen(3005, "localhost", (err) => {
